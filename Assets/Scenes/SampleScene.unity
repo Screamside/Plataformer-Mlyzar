@@ -434,9 +434,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveDirection: {x: 0, y: 0}
-  _maxSpeed: 20
-  _maxAcceleration: 0
-  _snappyControls: 1
+  _maxSpeed: 40
+  _maxAcceleration: 10
+  _snappyControls: 0
 --- !u!54 &1231983454
 Rigidbody:
   m_ObjectHideFlags: 0
