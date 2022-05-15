@@ -74,6 +74,7 @@ public class MovementTest : MonoBehaviour
         }
 
 
+
         currentVelocity.y = _rigidbody.velocity.y;
         
         
