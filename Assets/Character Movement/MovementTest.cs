@@ -51,7 +51,7 @@ public class MovementTest : MonoBehaviour
 
 
 
-            _desiredDirection = new Vector3(_moveDirection.x, 0, _moveDirection.y);
+            _desiredDirection = new Vector3(_moveDirection.x, 0f, _moveDirection.y);
             
             
             currentVelocity = (_desiredDirection * _maxSpeed);
@@ -74,7 +74,7 @@ public class MovementTest : MonoBehaviour
         }
 
 
-
+        currentVelocity.y = _rigidbody.velocity.y;
         
         
         _rigidbody.velocity = currentVelocity;
